@@ -333,7 +333,7 @@ class main_crack():
 
 def randm(gold404,gold20d):
     global loop,ok,cp
-    sys.stdout.write(f"\r{G1}[{A}SAWG-XD{G1}]{A}-{G1}[{A}{loop}{G1}]{A}-{G1}[{A}OK{G1}/{A}CP{G1}]{A}-{G1}[{A}{len(ok)}{G1}/{A}{len(cp)}{G1}] ")
+    sys.stdout.write(f"\r{G1}[{A}CR7-XD{G1}]{A}-{G1}[{A}{loop}{G1}]{A}-{G1}[{A}OK{G1}/{A}CP{G1}]{A}-{G1}[{A}{len(ok)}{G1}/{A}{len(cp)}{G1}] ")
     sys.stdout.flush()
     try:
         for pas in gold20d:
